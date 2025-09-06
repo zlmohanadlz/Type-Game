@@ -127,7 +127,7 @@ body {
     color: var(--secondary-color);
 }
 
-time.buff::after {
+.time.buff::after {
     content: " +3";
     color: var(--main-color);
 }
