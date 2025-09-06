@@ -223,7 +223,6 @@ function addScore(currentScore) {
         window.localStorage.setItem("Score", currentScore);
         return [true, storedScore]; // breakScore for finishGame
     }
-    return [false, null];
 }
 
 // ------------------- Finish Game -------------------
