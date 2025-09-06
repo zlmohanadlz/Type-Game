@@ -104,3 +104,7 @@ This project is **MIT Licensed**.
 ## 🌐 Live Demo
 
 [Click here to play Type Game](https://zlmohanadlz.github.io/Type-Game)
+
+## Developer
+
+**Mohanad Ayoub** - [GitHub Profile](https://github.com/zlmohanadlz)
