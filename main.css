@@ -1,0 +1,180 @@
+:root {
+    --main-color: #2196f3;
+    --secondary-color: #009688;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.game {
+    background-color: #eee;
+    min-height: 100vh;
+}
+
+.container {
+    margin: auto;
+    max-width: 900px;
+}
+
+.name {
+    background-color: var(--main-color);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.message {
+    background-color: white;
+    border-radius: 6px;
+    margin: 15px 0;
+    padding: 15px;
+    text-align: center;
+}
+
+.message span {
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.message span::before {
+    content: "[ ";
+}
+
+.message span::after {
+    content: " ]";
+}
+
+.start {
+    border: none;
+    width: 100%;
+    background-color: var(--secondary-color);
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.the-word {
+    color: var(--main-color);
+    text-align: center;
+    font-size: 60px;
+    user-select: none;
+    font-weight: bold;
+}
+
+.input {
+    outline: none;
+    border: 3ps solid var(--main-color);
+    caret-color: var(--main-color);
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 6px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.upcoming-words {
+    background-color: white;
+    padding: 15px;
+    margin: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.upcoming-words div {
+    background-color: var(--main-color);
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+    margin: 4px;
+    font-weight: bold;
+}
+
+.control {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px;
+}
+
+.control span {
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+time.buff::after {
+    content: " +3";
+    color: var(--main-color);
+}
+
+.finish {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding: 15px;
+}
+
+.finish .good {
+    color: var(--main-color);
+}
+
+.finish .bad {
+    color: red;
+}
+
+.restart {
+    display: block;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    padding: 10px 20px;
+    margin: 15px auto;
+    border-radius: 6px;
+    color: white;
+    font-size: 17px;
+}
+
+.change-lvl {
+    outline: none;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.instructions {
+    padding: 15px;
+    background-color: white;
+    margin: 15px 0;
+}
+
+.instructions h2 {
+    text-align: center;
+    margin: 0 0 40px;
+}
+
+.instructions div {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 0.2rem;
+}
+
+.instructions div::before {
+    content: "📌";
+    margin-right: 5px;
+}

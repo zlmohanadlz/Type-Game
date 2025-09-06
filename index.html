@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Typing Game</title>
+        <link rel="stylesheet" href="main.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="game">
+            <div class="name">Typing Speed Test Game</div>
+            <div class="container">
+                <div class="message">
+                    You Are Playing On
+                    <span class="lvl"></span> Level & You Have
+                    <span class="seconds"></span> Seconds To Type The Word
+                </div>
+            </optgroup>
+            <button class="start">Start Playing</button>
+            <div class="the-word"></div>
+            <input type="text" class="input" />
+            <div class="upcoming-words">Words Will Show Here</div>
+            <div class="control">
+                    <button class="change-lvl">Change Difficulty</button>
+                    <div class="time buff">Time Left: <span></span> Seconds</div>
+                    <div class="score">
+                        Score: <span class="got">0</span> From
+                        <span class="total"></span>
+                    </div>
+                </div>
+                <div class="finish"></div>
+                <div class="instructions">
+                    <h2>Game Instructions</h2>
+                    <div>This Is A Typing Game.</div>
+                    <div>You could Chose Any Difficulty With Different Words.</div>
+                    <div>One Word Will Appear Above And then Rest Of Words Under It Will Appear, A Random One Will Picked Each Time</div>
+                    <div>In the The First Attempt You have 3+ seconds</div>
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
